@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body  { @apply bg-[#202024] dark:bg-white duration-500;}
+
+
+
+.content-div{
+ 
+  background-repeat: no-repeat ;
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.content-div:hover { 
+  background-image: linear-gradient(
+  to right,
+  rgba(122, 157, 255, 0.8),
+   hsla(242, 74%, 61%, 0.8)
+)!important}
+
