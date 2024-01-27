@@ -2,8 +2,11 @@ import React from 'react'
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Curriculo from "../../../pics/resume.pdf"
 
 const RedeSocias = () => {
+
+
   return (
          <div className="hidden xl:flex lg-flex-row fixed flex-col top-[30%] left-2">
             <ul>
@@ -36,7 +39,8 @@ const RedeSocias = () => {
               </li>
               <li className="w-[155px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-18px] duration-300 bg-[#131314] dark:bg-blue-900">
                 <a
-                  href="https://www.canva.com/design/DAFctVJOBXY/ge-v3HTcE7hS682rvApdRA/watch?utm_content=DAFctVJOBXY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                  href={Curriculo}
+                  download="Curriculo"
                   target="blank"
                   className="flex justify-between px-5 items-center w-full text-white"
                 >

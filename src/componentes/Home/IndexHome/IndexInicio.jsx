@@ -22,7 +22,7 @@ const Inicio = () => {
           <p className="text-gray-400 dark:text-gray-900 my-6 text-sm sm:text-base">Olá, sou o Thiago Villani, um desenvolvedor Full Stack apaixonado por tecnologia. Com um ano de experiência, tenho me dedicado ao universo do C#, resolvendo bugs, criando testes unitários e consumindo APIs. Além disso, já criei iBoots usando Uchat e participei de projetos com React. Estou sempre aberto a novas oportunidades e desafios.</p> 
         
         <div className=" max-w-[350px] flex flex-wrap justify-start items-center py-5 gap-4 ">
-        <ListSkill skills={['C#', 'Uchat/iBot', 'JavaScript', 'React', 'Next.js', 'MySql', 'Tailwind' ]} />
+        <ListSkill skills={['C# ', 'Uchat/iBot', 'JavaScript', 'React', 'Next.js', 'MySql', 'Tailwind' ]} />
         </div>
            
           <div className="flex ">

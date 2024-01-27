@@ -22,4 +22,3 @@ export const Navigation = ({ toggleMenu }) => (
     <MenuItem content={<DarkMode />} showIcon={false} />
   </motion.ul>
 );
-
